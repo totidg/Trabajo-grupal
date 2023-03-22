@@ -10,13 +10,6 @@ form.addEventListener('submit', function (event) {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries
   const values = Object.fromEntries(formData);
 
-  // agregar validaciones
-  if (values.nombre.length == 5) {
-    alert('es igual a 5'); 
-    return;
-  }
-
-
   // Crea una fila dentro de tbody
   let tr1 = document.createElement('tr');
   tabla.appendChild(tr1);
