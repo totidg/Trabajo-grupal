@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Datos</h1>
+      <form action="" method="">
+        <div>
+          <label>Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            maxlength="20"
+            minlength="2"
+            required
+          />
+        </div>
+        <div>
+          <label>Apellido</label>
+          <input
+            type="text"
+            name="apellido"
+            maxlength="25"
+            minlength="2"
+            required
+          />
+        </div>
+        <div>
+          <label>Edad</label>
+          <input type="number" name="edad" max="120" min="18" required />
+        </div>
+        <div>
+          <label>Dni</label>
+          <input type="number" name="dni" min="6" required />
+        </div>
+        <div>
+          <label>Correo electrónico</label>
+          <input type="email" name="correo" required />
+        </div>
+
+        <button>Cargar</button>
+      </form>
+    </main>
+
+    <section>
+      <table>
+        <caption>
+          Tabla
+        </caption>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Dni</th>
+            <th>Correo electrónico</th>
+          </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+      </table>
+    </section>
+    <section class="autores">
+      <a href="/autores.html">Autores</a>
+    </section>
+  </body>
+</html>

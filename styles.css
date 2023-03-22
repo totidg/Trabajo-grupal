@@ -1,0 +1,119 @@
+/* GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(223, 93, 93), black);
+
+  margin: 0;
+  height: 100vh;
+}
+
+/* FORM STYLES */
+
+main {
+  box-shadow: -10px 15px 35px black;
+  width: 500px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+  padding-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto 30px;
+}
+
+form div {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.438);
+}
+
+div input {
+  float: right;
+  width: 250px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.192);
+}
+
+div input:focus {
+  outline: none;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  border: none;
+  background-color: rgb(107, 29, 29);
+  border-radius: 30px;
+  height: 35px;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+button:hover {
+  border: 2px solid black;
+  background-color: rgb(117, 58, 58);
+}
+
+/* TABLE STYLES */
+
+section {
+  width: 100%;
+}
+table {
+  width: 95%;
+  margin: auto;
+}
+caption {
+  color: white;
+  font-size: 20px;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody tr td {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.autores {
+  width: 140px;
+  height: 35px;
+  margin: 50px auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 151, 151);
+  border-radius: 5px;
+}
+
+.autores a {
+  font-size: 30px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+}
