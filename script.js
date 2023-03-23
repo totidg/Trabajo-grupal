@@ -34,4 +34,6 @@ form.addEventListener('submit', function (event) {
   let tdCorreo = document.createElement('td');
   tr1.appendChild(tdCorreo);
   tdCorreo.innerHTML = values.correo;
+
+  form.reset()
 });
